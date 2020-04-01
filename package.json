@@ -1,0 +1,15 @@
+{
+  "name": "bright-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A syntax theme using bright colours on a white background",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/bright-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
