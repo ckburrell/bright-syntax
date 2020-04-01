@@ -46,3 +46,60 @@ atom-text-editor {
         background-color: @syntax-wrap-guide-color;
     }
 }
+
+
+// Syntax styles
+
+.syntax--comment {
+    color: @gray;
+}
+
+.syntax--constant {
+    color: @black;
+    font-weight: bold;
+
+    &.syntax--language {
+        color: @blue;
+        font-weight: normal;
+    }
+}
+
+.syntax--entity {
+    &.syntax--name.syntax--function {
+        //python: function/method names
+        color: @purple;
+    }
+
+    &.syntax--name.syntax--function.syntax--decorator {
+        //python: decorators
+        color: @pink;
+    }
+
+    &.syntax--name.syntax--type {
+        //python
+        color: @dark-green;
+    }
+
+    &.syntax--other.syntax--inherited-class {
+        color: @green;
+    }
+}
+
+.syntax--keyword {
+    color: @blue;
+}
+
+.syntax--storage {
+    //python: `class`|`def` etc.
+    color: @blue;
+}
+
+.syntax--string {
+    color: @orange;
+}
+
+.syntax--support {
+    &.syntax--function {
+        color: @magenta;
+    }
+}
